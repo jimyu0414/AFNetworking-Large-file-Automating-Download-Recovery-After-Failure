@@ -7,3 +7,5 @@ This is a simple xcode project showing how to use AFNetworking library to manage
 - When the application is closed in the middle of a transfer or when network connectivity disappears it save the state of the transer
 - If the application has an unfinished download left over, it periodically poll the network to determine if the network is reachable.
 If so, it attempt to resume the transfer.
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
