@@ -21,6 +21,15 @@
 		9A58BE2F1930DFB800F06A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A58BE111930DFB800F06A2E /* UIKit.framework */; };
 		9A58BE371930DFB800F06A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A58BE351930DFB800F06A2E /* InfoPlist.strings */; };
 		9A58BE391930DFB800F06A2E /* Assignment9Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE381930DFB800F06A2E /* Assignment9Tests.m */; };
+		9A58BE561930E02100F06A2E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE441930E02100F06A2E /* AFHTTPRequestOperation.m */; };
+		9A58BE571930E02100F06A2E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE461930E02100F06A2E /* AFHTTPRequestOperationManager.m */; };
+		9A58BE581930E02100F06A2E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE481930E02100F06A2E /* AFHTTPSessionManager.m */; };
+		9A58BE591930E02100F06A2E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE4B1930E02100F06A2E /* AFNetworkReachabilityManager.m */; };
+		9A58BE5A1930E02100F06A2E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE4D1930E02100F06A2E /* AFSecurityPolicy.m */; };
+		9A58BE5B1930E02100F06A2E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE4F1930E02100F06A2E /* AFURLConnectionOperation.m */; };
+		9A58BE5C1930E02100F06A2E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE511930E02100F06A2E /* AFURLRequestSerialization.m */; };
+		9A58BE5D1930E02100F06A2E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE531930E02100F06A2E /* AFURLResponseSerialization.m */; };
+		9A58BE5E1930E02100F06A2E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A58BE551930E02100F06A2E /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +43,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A58BE0A1930DFB800F06A2E /* Assignment9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A58BE0A1930DFB800F06A2E /* AFNetworking .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A58BE0D1930DFB800F06A2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A58BE0F1930DFB800F06A2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9A58BE111930DFB800F06A2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9A58BE151930DFB800F06A2E /* Assignment9-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment9-Info.plist"; sourceTree = "<group>"; };
+		9A58BE151930DFB800F06A2E /* AFNetworking -Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworking -Info.plist"; sourceTree = "<group>"; };
 		9A58BE171930DFB800F06A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A58BE191930DFB800F06A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A58BE1B1930DFB800F06A2E /* Assignment9-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment9-Prefix.pch"; sourceTree = "<group>"; };
+		9A58BE1B1930DFB800F06A2E /* AFNetworking -Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworking -Prefix.pch"; sourceTree = "<group>"; };
 		9A58BE1C1930DFB800F06A2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A58BE1D1930DFB800F06A2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A58BE201930DFB800F06A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A58BE221930DFB800F06A2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A58BE231930DFB800F06A2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A58BE251930DFB800F06A2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9A58BE2B1930DFB800F06A2E /* Assignment9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A58BE2B1930DFB800F06A2E /* AFNetworking Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A58BE2C1930DFB800F06A2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9A58BE341930DFB800F06A2E /* Assignment9Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment9Tests-Info.plist"; sourceTree = "<group>"; };
+		9A58BE341930DFB800F06A2E /* AFNetworking Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworking Tests-Info.plist"; sourceTree = "<group>"; };
 		9A58BE361930DFB800F06A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A58BE381930DFB800F06A2E /* Assignment9Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment9Tests.m; sourceTree = "<group>"; };
+		9A58BE431930E02100F06A2E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9A58BE441930E02100F06A2E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9A58BE451930E02100F06A2E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		9A58BE461930E02100F06A2E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9A58BE471930E02100F06A2E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9A58BE481930E02100F06A2E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9A58BE491930E02100F06A2E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9A58BE4A1930E02100F06A2E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9A58BE4B1930E02100F06A2E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9A58BE4C1930E02100F06A2E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9A58BE4D1930E02100F06A2E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9A58BE4E1930E02100F06A2E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9A58BE4F1930E02100F06A2E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9A58BE501930E02100F06A2E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9A58BE511930E02100F06A2E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9A58BE521930E02100F06A2E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9A58BE531930E02100F06A2E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9A58BE541930E02100F06A2E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9A58BE551930E02100F06A2E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +114,15 @@
 				9A58BE321930DFB800F06A2E /* Assignment9Tests */,
 				9A58BE0C1930DFB800F06A2E /* Frameworks */,
 				9A58BE0B1930DFB800F06A2E /* Products */,
+				9A58BE421930E02100F06A2E /* AFNetworking */,
 			);
 			sourceTree = "<group>";
 		};
 		9A58BE0B1930DFB800F06A2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A58BE0A1930DFB800F06A2E /* Assignment9.app */,
-				9A58BE2B1930DFB800F06A2E /* Assignment9Tests.xctest */,
+				9A58BE0A1930DFB800F06A2E /* AFNetworking .app */,
+				9A58BE2B1930DFB800F06A2E /* AFNetworking Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +155,10 @@
 		9A58BE141930DFB800F06A2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A58BE151930DFB800F06A2E /* Assignment9-Info.plist */,
+				9A58BE151930DFB800F06A2E /* AFNetworking -Info.plist */,
 				9A58BE161930DFB800F06A2E /* InfoPlist.strings */,
 				9A58BE191930DFB800F06A2E /* main.m */,
-				9A58BE1B1930DFB800F06A2E /* Assignment9-Prefix.pch */,
+				9A58BE1B1930DFB800F06A2E /* AFNetworking -Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +175,44 @@
 		9A58BE331930DFB800F06A2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A58BE341930DFB800F06A2E /* Assignment9Tests-Info.plist */,
+				9A58BE341930DFB800F06A2E /* AFNetworking Tests-Info.plist */,
 				9A58BE351930DFB800F06A2E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A58BE421930E02100F06A2E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9A58BE431930E02100F06A2E /* AFHTTPRequestOperation.h */,
+				9A58BE441930E02100F06A2E /* AFHTTPRequestOperation.m */,
+				9A58BE451930E02100F06A2E /* AFHTTPRequestOperationManager.h */,
+				9A58BE461930E02100F06A2E /* AFHTTPRequestOperationManager.m */,
+				9A58BE471930E02100F06A2E /* AFHTTPSessionManager.h */,
+				9A58BE481930E02100F06A2E /* AFHTTPSessionManager.m */,
+				9A58BE491930E02100F06A2E /* AFNetworking.h */,
+				9A58BE4A1930E02100F06A2E /* AFNetworkReachabilityManager.h */,
+				9A58BE4B1930E02100F06A2E /* AFNetworkReachabilityManager.m */,
+				9A58BE4C1930E02100F06A2E /* AFSecurityPolicy.h */,
+				9A58BE4D1930E02100F06A2E /* AFSecurityPolicy.m */,
+				9A58BE4E1930E02100F06A2E /* AFURLConnectionOperation.h */,
+				9A58BE4F1930E02100F06A2E /* AFURLConnectionOperation.m */,
+				9A58BE501930E02100F06A2E /* AFURLRequestSerialization.h */,
+				9A58BE511930E02100F06A2E /* AFURLRequestSerialization.m */,
+				9A58BE521930E02100F06A2E /* AFURLResponseSerialization.h */,
+				9A58BE531930E02100F06A2E /* AFURLResponseSerialization.m */,
+				9A58BE541930E02100F06A2E /* AFURLSessionManager.h */,
+				9A58BE551930E02100F06A2E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A58BE091930DFB800F06A2E /* Assignment9 */ = {
+		9A58BE091930DFB800F06A2E /* AFNetworking  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A58BE3C1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "Assignment9" */;
+			buildConfigurationList = 9A58BE3C1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "AFNetworking " */;
 			buildPhases = (
 				9A58BE061930DFB800F06A2E /* Sources */,
 				9A58BE071930DFB800F06A2E /* Frameworks */,
@@ -167,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = Assignment9;
+			name = "AFNetworking ";
 			productName = Assignment9;
-			productReference = 9A58BE0A1930DFB800F06A2E /* Assignment9.app */;
+			productReference = 9A58BE0A1930DFB800F06A2E /* AFNetworking .app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A58BE2A1930DFB800F06A2E /* Assignment9Tests */ = {
+		9A58BE2A1930DFB800F06A2E /* AFNetworking Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A58BE3F1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "Assignment9Tests" */;
+			buildConfigurationList = 9A58BE3F1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "AFNetworking Tests" */;
 			buildPhases = (
 				9A58BE271930DFB800F06A2E /* Sources */,
 				9A58BE281930DFB800F06A2E /* Frameworks */,
@@ -185,9 +240,9 @@
 			dependencies = (
 				9A58BE311930DFB800F06A2E /* PBXTargetDependency */,
 			);
-			name = Assignment9Tests;
+			name = "AFNetworking Tests";
 			productName = Assignment9Tests;
-			productReference = 9A58BE2B1930DFB800F06A2E /* Assignment9Tests.xctest */;
+			productReference = 9A58BE2B1930DFB800F06A2E /* AFNetworking Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A58BE051930DFB800F06A2E /* Build configuration list for PBXProject "Assignment9" */;
+			buildConfigurationList = 9A58BE051930DFB800F06A2E /* Build configuration list for PBXProject "AFNetworking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +272,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A58BE091930DFB800F06A2E /* Assignment9 */,
-				9A58BE2A1930DFB800F06A2E /* Assignment9Tests */,
+				9A58BE091930DFB800F06A2E /* AFNetworking  */,
+				9A58BE2A1930DFB800F06A2E /* AFNetworking Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,7 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A58BE561930E02100F06A2E /* AFHTTPRequestOperation.m in Sources */,
 				9A58BE241930DFB800F06A2E /* ViewController.m in Sources */,
+				9A58BE571930E02100F06A2E /* AFHTTPRequestOperationManager.m in Sources */,
+				9A58BE591930E02100F06A2E /* AFNetworkReachabilityManager.m in Sources */,
+				9A58BE5D1930E02100F06A2E /* AFURLResponseSerialization.m in Sources */,
+				9A58BE5B1930E02100F06A2E /* AFURLConnectionOperation.m in Sources */,
+				9A58BE5A1930E02100F06A2E /* AFSecurityPolicy.m in Sources */,
+				9A58BE581930E02100F06A2E /* AFHTTPSessionManager.m in Sources */,
+				9A58BE5C1930E02100F06A2E /* AFURLRequestSerialization.m in Sources */,
+				9A58BE5E1930E02100F06A2E /* AFURLSessionManager.m in Sources */,
 				9A58BE1E1930DFB800F06A2E /* AppDelegate.m in Sources */,
 				9A58BE1A1930DFB800F06A2E /* main.m in Sources */,
 			);
@@ -268,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		9A58BE311930DFB800F06A2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A58BE091930DFB800F06A2E /* Assignment9 */;
+			target = 9A58BE091930DFB800F06A2E /* AFNetworking  */;
 			targetProxy = 9A58BE301930DFB800F06A2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +441,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Assignment9/Assignment9-Prefix.pch";
-				INFOPLIST_FILE = "Assignment9/Assignment9-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Assignment9/AFNetworking -Prefix.pch";
+				INFOPLIST_FILE = "Assignment9/AFNetworking -Info.plist";
+				PRODUCT_NAME = "AFNetworking ";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +454,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Assignment9/Assignment9-Prefix.pch";
-				INFOPLIST_FILE = "Assignment9/Assignment9-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Assignment9/AFNetworking -Prefix.pch";
+				INFOPLIST_FILE = "Assignment9/AFNetworking -Info.plist";
+				PRODUCT_NAME = "AFNetworking ";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +476,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Assignment9Tests/Assignment9Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Assignment9Tests/AFNetworking Tests-Info.plist";
+				PRODUCT_NAME = "AFNetworking Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +494,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Assignment9/Assignment9-Prefix.pch";
-				INFOPLIST_FILE = "Assignment9Tests/Assignment9Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Assignment9Tests/AFNetworking Tests-Info.plist";
+				PRODUCT_NAME = "AFNetworking Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A58BE051930DFB800F06A2E /* Build configuration list for PBXProject "Assignment9" */ = {
+		9A58BE051930DFB800F06A2E /* Build configuration list for PBXProject "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A58BE3A1930DFB800F06A2E /* Debug */,
@@ -449,21 +513,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A58BE3C1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "Assignment9" */ = {
+		9A58BE3C1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "AFNetworking " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A58BE3D1930DFB800F06A2E /* Debug */,
 				9A58BE3E1930DFB800F06A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9A58BE3F1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "Assignment9Tests" */ = {
+		9A58BE3F1930DFB800F06A2E /* Build configuration list for PBXNativeTarget "AFNetworking Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A58BE401930DFB800F06A2E /* Debug */,
 				9A58BE411930DFB800F06A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A58BE091930DFB800F06A2E"
-               BuildableName = "Assignment9.app"
-               BlueprintName = "Assignment9"
-               ReferencedContainer = "container:Assignment9.xcodeproj">
+               BuildableName = "AFNetworking .app"
+               BlueprintName = "AFNetworking "
+               ReferencedContainer = "container:AFNetworking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A58BE2A1930DFB800F06A2E"
-               BuildableName = "Assignment9Tests.xctest"
-               BlueprintName = "Assignment9Tests"
-               ReferencedContainer = "container:Assignment9.xcodeproj">
+               BuildableName = "AFNetworking Tests.xctest"
+               BlueprintName = "AFNetworking Tests"
+               ReferencedContainer = "container:AFNetworking.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A58BE091930DFB800F06A2E"
-            BuildableName = "Assignment9.app"
-            BlueprintName = "Assignment9"
-            ReferencedContainer = "container:Assignment9.xcodeproj">
+            BuildableName = "AFNetworking .app"
+            BlueprintName = "AFNetworking "
+            ReferencedContainer = "container:AFNetworking.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A58BE091930DFB800F06A2E"
-            BuildableName = "Assignment9.app"
-            BlueprintName = "Assignment9"
-            ReferencedContainer = "container:Assignment9.xcodeproj">
+            BuildableName = "AFNetworking .app"
+            BlueprintName = "AFNetworking "
+            ReferencedContainer = "container:AFNetworking.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A58BE091930DFB800F06A2E"
-            BuildableName = "Assignment9.app"
-            BlueprintName = "Assignment9"
-            ReferencedContainer = "container:Assignment9.xcodeproj">
+            BuildableName = "AFNetworking .app"
+            BlueprintName = "AFNetworking "
+            ReferencedContainer = "container:AFNetworking.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

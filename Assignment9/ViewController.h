@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *ProgressShowLabel;
+@property (weak, nonatomic) IBOutlet UIButton *BtnDownload;
+@property (weak, nonatomic) IBOutlet UIProgressView *ProgressView;
+- (IBAction)Download:(id)sender;
+- (IBAction)Pause:(id)sender;
+- (IBAction)Resume:(id)sender;
+- (IBAction)Cancel:(id)sender;
 @end

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Assignment9.xcodeproj">
+      location = "self:AFNetworking.xcodeproj">
    </FileRef>
 </Workspace>
