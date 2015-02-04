@@ -8,4 +8,5 @@ This is a simple xcode project showing how to use AFNetworking library to manage
 - If the application has an unfinished download left over, it periodically poll the network to determine if the network is reachable.
 If so, it attempt to resume the transfer.
 
-https://cloud.githubusercontent.com/assets/7435852/6040155/c3ef1c76-acc2-11e4-90f0-8c491c1b71d6.png
+
+![Alt text](https://cloud.githubusercontent.com/assets/7435852/6040155/c3ef1c76-acc2-11e4-90f0-8c491c1b71d6.png "Screen shot")
